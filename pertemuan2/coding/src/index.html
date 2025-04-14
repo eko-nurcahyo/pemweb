@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profil Eko Nurcahyo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container">
+    <a class="navbar-brand" href="#">Profil</a>
+    <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Dropdown</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link disabled">Disabled</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- CONTENT -->
+<div class="container mt-4">
+  <div class="row">
+    <!-- Left Column -->
+    <div class="col-lg-4 mb-4">
+      <!-- Profile Card -->
+      <div class="card text-center">
+        <div class="card-body">
+          <img src="../assets/eko.jpg" alt="Logo UEU" class="rounded-circle img-fluid mb-3" style="width: 120px;">
+          <h5 class="card-title">Eko Nurcahyo</h5>
+          <p class="text-muted">Fakultas Ilmu Komputer</p>
+          <p class="text-muted">Teknik Informatika</p>
+          <div class="d-flex justify-content-center gap-2 mt-3">
+            <button class="btn btn-primary btn-sm">Ngawi</button>
+            <button class="btn btn-outline-secondary btn-sm">01 Januari 2024</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Personal Links -->
+      <div class="card mt-4">
+        <div class="card-header text-center fw-bold">My Links</div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <a href="https://wa.me/6281913339357" target="_blank" class="text-decoration-none">
+              <i class="fab fa-whatsapp text-success me-2"></i>WhatsApp
+            </a>
+          </li>
+          <li class="list-group-item">
+            <a href="https://instagram.com/ekogandoz" target="_blank" class="text-decoration-none">
+              <i class="fab fa-instagram text-danger me-2"></i>Instagram
+            </a>
+          </li>
+          <li class="list-group-item">
+            <a href="mailto:ekogandoz321@gmail.com" class="text-decoration-none">
+              <i class="fa fa-envelope text-primary me-2"></i>Email
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Right Column -->
+    <div class="col-lg-8">
+      <!-- About Card -->
+      <div class="card mb-4">
+        <div class="card-body">
+          <h4 class="card-title text-center mb-4">ABOUT</h4>
+          <p class="fst-italic">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam rem atque architecto nesciunt natus enim dignissimos...
+          </p>
+          <p class="fst-italic">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi harum, fugiat repellat maiores eveniet ex, praesentium...
+          </p>
+          <p class="fst-italic">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel excepturi officia eum explicabo. Nulla, perferendis, ipsa eius mollitia...
+          </p>
+        </div>
+      </div>
+
+      <!-- Skill Card -->
+      <div class="card mb-4">
+        <div class="card-body">
+          <h5 class="mb-4">MY SKILL</h5>
+
+          <p class="mb-1" style="font-size: .9rem;">HTML</p>
+          <div class="progress rounded mb-3" style="height: 8px;">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+
+          <p class="mb-1" style="font-size: .9rem;">CSS</p>
+          <div class="progress rounded mb-3" style="height: 8px;">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+
+          <p class="mb-1" style="font-size: .9rem;">JavaScript</p>
+          <div class="progress rounded mb-3" style="height: 8px;">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="footer mt-5 bg-light py-3">
+  <div class="container text-center">
+    <p class="text-muted mb-0">&copy; 2025</p>
+  </div>
+</footer>
+
+<!-- SCRIPTS -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

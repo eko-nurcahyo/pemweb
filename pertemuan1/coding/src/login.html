@@ -1,0 +1,39 @@
+<!-- login.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Food Order</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+                <li><a href="login.html">Admin Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="login">
+        <h2>Login Admin</h2>
+        <form id="login-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+            
+            <button type="submit">Login</button>
+        </form>
+        <p id="login-error" style="color: red; display: none;">Username atau password salah!</p>
+    </section>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>

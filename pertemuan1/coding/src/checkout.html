@@ -1,0 +1,47 @@
+<!-- checkout.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Food Order</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+                <li><a href="login.html">Admin Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="checkout">
+        <h2>Keranjang Belanja</h2>
+        <div id="cart-items">
+            <p>Keranjang masih kosong.</p>
+        </div>
+        <form id="checkout-form">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" required>
+            
+            <label for="address">Alamat Pengiriman:</label>
+            <input type="text" id="address" required>
+            
+            <label for="payment">Metode Pembayaran:</label>
+            <select id="payment">
+                <option value="transfer">Transfer Bank</option>
+                <option value="cod">Cash on Delivery</option>
+            </select>
+            
+            <button type="submit">Pesan Sekarang</button>
+        </form>
+    </section>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>

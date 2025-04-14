@@ -1,0 +1,51 @@
+<!-- dashboard.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Admin</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Dashboard Admin</div>
+            <button onclick="logout()">Logout</button>
+        </nav>
+    </header>
+    
+    <section class="orders">
+        <h2>Pesanan Masuk</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>Alamat</th>
+                    <th>Pesanan</th>
+                    <th>Pembayaran</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody id="order-list">
+                <tr><td colspan="5">Belum ada pesanan.</td></tr>
+            </tbody>
+        </table>
+    </section>
+    
+    <section class="menu-management">
+        <h2>Kelola Menu</h2>
+        <form id="add-menu-form">
+            <input type="text" id="menu-name" placeholder="Nama Makanan" required>
+            <input type="number" id="menu-price" placeholder="Harga" required>
+            <input type="text" id="menu-image" placeholder="URL Gambar" required>
+            <button type="submit">Tambah Menu</button>
+        </form>
+        <div class="menu-items" id="menu-list">
+            <p>Belum ada menu.</p>
+        </div>
+    </section>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
